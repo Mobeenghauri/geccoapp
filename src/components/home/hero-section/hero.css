@@ -1,0 +1,81 @@
+.hero{
+    background-color: #FCF5EC;
+    font-size: smaller;
+    background-image: url('../../../../public/assests/images/Component\ 36\ –\ 1.png');
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.text{
+    text-align: left;
+  
+}
+.heroimg1{
+width: 100%;
+}
+.heroimg2{
+    width: 100%;
+    
+}
+.imgcol{
+z-index: 101;
+}
+.maskimg{
+    width: 100%;
+}
+.maski{
+    width: 100%;
+            z-index: 100;
+            margin-top: -62px;
+}
+.scroll{
+    position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transform: scale3d(0.5, 0.5, 0.5);
+        animation: move 3s ease-out infinite;   
+      }
+
+      .scroll:first-child {
+        animation: move 3s ease-out 1s infinite;
+      }
+      .scroll:nth-child(2) {
+        animation: move 3s ease-out 2s infinite;
+        }
+        .scroll:before,
+.scroll:after {
+content: ' ';
+position: absolute;
+top: 0;
+background: #fff;
+}
+
+.scroll:before {
+left: 0;
+transform: skew(0deg, 30deg);
+}
+
+.scroll:after {
+right: 0;
+width: 50%;
+transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+25% {
+  opacity: 1;
+
+}
+33% {
+  opacity: 1;
+  transform: translateY(30px);
+}
+67% {
+  opacity: 1;
+  transform: translateY(40px);
+}
+100% {
+  opacity: 0;
+  transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+}
+}

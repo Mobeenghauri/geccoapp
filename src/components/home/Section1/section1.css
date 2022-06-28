@@ -1,0 +1,16 @@
+.section1{
+    background-color: #FCF5EC;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sectionrow{
+    text-align: left;
+    
+}
+.sectioncol{
+    align-self: center;
+    font-size: smaller;  
+}
+/* .backgroundimg{
+    background-image: url('./assests/images/Group 6961.png');
+} */

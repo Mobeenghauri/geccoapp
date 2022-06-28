@@ -1,0 +1,41 @@
+.section5{
+    background-color: #FCF5EC;
+}
+.card1{
+    text-align: left;
+}
+.card2{
+    text-align: left;
+}
+.thirdcol{
+    text-align: left;
+}
+.thirdcol p{
+    width: 69%;
+    font-size: small;
+}
+.textalign{
+    align-self:center;
+}
+.aftersubmit1{
+    width: 50px;
+    padding: 13px 15px;
+    border-radius: 52px;
+    background-color: #4be099;
+}
+.s1{
+    padding: 11px;
+     font-size: small; 
+     color: #4be099;
+}
+.stylebtn{
+    background-color: #4be099!important;
+    border: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+.Button{
+    color: #4be099;
+}
