@@ -27,6 +27,9 @@
     padding: 11px;
      font-size: small; 
      color: #4be099;
+     display: flex;
+     justify-content: end;
+
 }
 .stylebtn{
     background-color: #4be099!important;
