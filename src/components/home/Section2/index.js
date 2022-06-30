@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./section2.css";
 const Section2 = () => {
+  console.log("testing");
   return (
     <div className="section2">
       <Container>
